@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin: 0;
+  color: #4caf50;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #81c784;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #388e3c;
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #ffffff;
+  color: #666;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+footer p {
+  margin: 0;
+}
